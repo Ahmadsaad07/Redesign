@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+.container{
+	margin: auto;
+	padding: 0 15px;
+
+	/*===== Media Query =====*/     
+	@media #{$minSmall}{
+		width: 750px;
+	}
+
+	@media #{$minMedium}{
+		width: 992px;
+	}
+
+	@media #{$minLarge}{
+		width: 1170px;
+	}
+	//////////////////////////
+	
+
+}
+
+body{
+	font-family: 'Cairo', sans-serif;
+
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #eee
+}
+
+.text-center{
+	text-align: center;
+}

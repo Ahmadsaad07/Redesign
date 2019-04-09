@@ -1,0 +1,37 @@
+
+.header{
+    width: 100%;
+    padding: 20px 0 5px 0;
+    border-bottom: 1px solid #CCC;
+    overflow: hidden;
+
+    .logo{
+        width: 30%;
+        float: right;
+        text-align: right;
+        img{
+            width: 140px;
+        }
+    }
+
+    .button{
+        background-color: #fff;
+        border: solid #0070c4  1px;
+        padding: 2px;
+        width: 47px;
+        height: 35px;
+        float: left;
+        margin-top: 15px;
+        border-radius: 2px;
+        display: none;
+
+        span{
+            width: 30px;
+            height: 2px;
+            background-color: #0070c4;
+            display: block;
+            margin: 5px;
+        }
+
+    }
+}

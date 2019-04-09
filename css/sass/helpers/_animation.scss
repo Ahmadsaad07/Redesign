@@ -1,0 +1,15 @@
+
+
+.slider{
+
+    .slide{
+        transition: all .2s ease-in-out;
+        
+        @media #{$maxMobile}{
+            &:hover{
+                transform: scale(0.995);
+                border: solid rgb(250, 154, 154) 1px;
+            }
+        }
+    }
+}

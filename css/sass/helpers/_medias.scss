@@ -1,0 +1,89 @@
+
+/*Header Button*/
+.header{
+    .button{
+        @media #{$maxMobile}{
+            display: block;
+        }
+    }
+}
+
+/**************/
+
+nav{
+    @media #{$maxMobile}{display: none}
+    
+    .container{@media #{$maxMobile}{padding: 0}}
+
+    ul{
+        li{
+            @media #{$maxMobile}{
+                display: block;
+                padding: 8px 15px;
+                &:hover{background-color: #1b2b38; cursor: pointer}
+            }
+
+            @media #{$maxSmall}{padding: 5px 15px}
+            @media #{$minMedium}{padding: 5px 15px}
+            a{
+                @media #{$maxMobile}{font-size: 14px}
+                @media #{$maxSmall}{font-size: 13px}
+            }
+        }
+    }
+}
+
+/*************************************/
+
+.theBody{
+    .body-con1{
+
+        h4{
+            @media #{$maxMobile}{
+                font-size: 16px;
+                padding: 0 0 10px 0;
+                
+            }
+        }
+        
+        p{
+            @media #{$maxMobile}{
+                font-size: 13px;
+                padding-left: 10px;
+            }
+        }
+    }
+
+}
+
+/*******************************/
+
+.slider{
+    @media #{$maxMobile}{
+        padding: 20px 0;
+    }
+
+    .slide{
+        @media #{$maxMobile}{
+            width: 100%;
+            padding: 25px 0;
+            border: solid 1px #DDD;
+            margin: 20px 0;
+            float: none;
+
+        }
+
+        img{
+            @media #{$maxMobile}{max-width: 50%}
+        }
+
+        p{
+            @media #{$maxMobile}{font-size: 17px}
+            span{ @media #{$maxMobile}{font-size: 25px}}
+        }
+    }
+}
+
+/************************/
+
+

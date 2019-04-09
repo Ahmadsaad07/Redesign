@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  padding: 20px 0 5px 0;
+  border-bottom: 1px solid #CCC;
+  overflow: hidden; }
+  .header .logo {
+    width: 30%;
+    float: right; }
+    .header .logo img {
+      width: 140px; }
+
+/*# sourceMappingURL=header.css.map */

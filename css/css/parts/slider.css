@@ -1,0 +1,15 @@
+.slider {
+  padding: 50px 0;
+  background-color: #fff;
+  overflow: hidden; }
+  .slider .slide {
+    width: 33.333%;
+    height: auto;
+    float: left;
+    text-align: center; }
+    .slider .slide p {
+      font-size: 20px; }
+      .slider .slide p span {
+        font-size: 30px; }
+
+/*# sourceMappingURL=slider.css.map */
